@@ -93,7 +93,7 @@ def getColor(frame, x, y):
         return 'w'
 
 cv2.namedWindow("preview")
-vc = cv2.VideoCapture(1)
+vc = cv2.VideoCapture(0)
 lado = 100
 x = 100
 y = 170
